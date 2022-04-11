@@ -1,0 +1,53 @@
+:root {
+    --color-white: #fff;
+    --color-light: #f4f4f4;
+    --color-dark: #525252;
+    --color-black: #141415;
+    --color-primary: #7b0d1e;
+    --color-primary-light: hsl(0, 100%, 25%, 12%);
+    --color-success: #7FA998;
+    --color-warning: #FFA36C;
+  
+    --transition: all 300ms ease;
+  }
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+  
+.map-overlay {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+}
+
+.buttons {
+    background-color: var(--color-primary);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+}
+
+.buttons:hover {
+    background-color: var(--color-success);
+    opacity: 1;
+    transition: var(--transition);
+}
+
+
+.buttons, select {
+    text-transform: none;
+    outline: none
+}
