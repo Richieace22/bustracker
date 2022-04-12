@@ -1,7 +1,7 @@
 # Real-Time Bus Stop Exercise
 In the Real-Time Bus exercise we had to gather data from buses in Boston using a URL from MBTA. Once we acquired the coordinate information we then chose one bus to add to a map with our access token on MapBox. I added multiple bus routes to track at the same time.
 
-## How To Use:
+## How To Run:
 Download repo zip or clone repo. Open index.html in broswer.
 
 # Licensing Information
